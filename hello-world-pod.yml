@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hello
+  labels:
+    name: hello
+spec:
+  containers:
+    - name: hello
+      image: 'localhost:5000/hello-world'
+      ports:
+        - containerPort: 80

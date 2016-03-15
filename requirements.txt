@@ -1,0 +1,6 @@
+slackbot
+requests
+jenkinsapi
+pykube
+boto3
+git+https://github.com/mattmb/aws_kube_deploy
